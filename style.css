@@ -6,6 +6,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #808080da;
 }
 .iphone-container {
   display: flex;
@@ -410,7 +411,14 @@
   position: absolute;
   top: 0.4rem;
   right: 1rem;
-  background-color: #d6c8ad;
+  background: rgb(128, 128, 128);
+  background: radial-gradient(
+    circle,
+    rgba(244, 245, 248, 0.867121848739496) 0%,
+    rgba(244, 245, 248, 0.867121848739496) 15%,
+    rgba(128, 128, 128, 0.7) 70%,
+    rgba(244, 245, 248, 0.867121848739496) 100%
+  );
 }
 .smaller-cam {
   width: 0.5rem;
